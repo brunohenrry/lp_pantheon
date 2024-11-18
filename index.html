@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pantheon Labs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <i class="ri-code-line"></i>
+        Pantheon Labs
+      </div>
+      <div class="navbar-links">
+        <a href="#home"><i class="ri-home-line"></i> Home</a>
+        <a href="#services"><i class="ri-stack-line"></i> Services</a>
+        <a href="#portfolio"><i class="ri-gallery-line"></i> Portfolio</a>
+        <a href="#contact"><i class="ri-message-line"></i> Contact</a>
+      </div>
+      <button class="mobile-menu-btn">
+        <i class="ri-menu-line"></i>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Transformando Ideias em Realidade Digital</h1>
+        <p
+          style="
+            color: var(--text-gray);
+            margin-bottom: var(--spacing-lg);
+            font-size: 1.2rem;
+          "
+        >
+          Criamos soluções inovadoras para o moderno cenário digital.
+        </p>
+        <button class="btn"><i class="ri-rocket-line"></i> Começar</button>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="services-grid">
+        <div class="service-card">
+          <i
+            class="ri-code-s-slash-line"
+            style="
+              font-size: 2.5rem;
+              color: var(--primary);
+              margin-bottom: var(--spacing-sm);
+            "
+          ></i>
+          <h3 style="margin-bottom: var(--spacing-sm)">Desenvolvimento Web</h3>
+          <p style="color: var(--text-gray)">
+            Sites e aplicações web personalizados construídos com tecnologias de
+            ponta e melhores práticas.
+          </p>
+        </div>
+        <div class="service-card">
+          <i
+            class="ri-smartphone-line"
+            style="
+              font-size: 2.5rem;
+              color: var(--secondary);
+              margin-bottom: var(--spacing-sm);
+            "
+          ></i>
+          <h3 style="margin-bottom: var(--spacing-sm)">Aplicativos Móveis</h3>
+          <p style="color: var(--text-gray)">
+            Aplicações móveis nativas e multiplataforma que oferecem
+            experiências excepcionais ao usuário.
+          </p>
+        </div>
+        <div class="service-card">
+          <i
+            class="ri-cloud-line"
+            style="
+              font-size: 2.5rem;
+              color: var(--accent);
+              margin-bottom: var(--spacing-sm);
+            "
+          ></i>
+          <h3 style="margin-bottom: var(--spacing-sm)">Soluções em Nuvem</h3>
+          <p style="color: var(--text-gray)">
+            Infraestrutura e serviços em nuvem escaláveis otimizados para
+            desempenho e confiabilidade.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-wrapper">
+        <div class="portfolio-header">
+          <h2>Trabalhos em Destaque</h2>
+        </div>
+        <div class="portfolio-gallery">
+          <!-- Projeto em Destaque -->
+          <div class="gallery-item">
+            <div class="gallery-item-inner">
+              <img
+                src="https://via.placeholder.com/1200x800"
+                alt="Projeto em Destaque"
+                class="gallery-image"
+              />
+              <div class="gallery-overlay">
+                <h3 class="gallery-title">Plataforma Neobank</h3>
+                <span class="gallery-category">Bancos Digitais</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projeto 2 -->
+          <div class="gallery-item">
+            <div class="gallery-item-inner">
+              <img
+                src="https://via.placeholder.com/600x400"
+                alt="E-commerce"
+                class="gallery-image"
+              />
+              <div class="gallery-overlay">
+                <h3 class="gallery-title">Loja de Moda</h3>
+                <span class="gallery-category">E-commerce</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projeto 3 -->
+          <div class="gallery-item">
+            <div class="gallery-item-inner">
+              <img
+                src="https://via.placeholder.com/600x400"
+                alt="Aplicativo Móvel"
+                class="gallery-image"
+              />
+              <div class="gallery-overlay">
+                <h3 class="gallery-title">Aplicativo de Fitness</h3>
+                <span class="gallery-category">Móvel</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projeto 4 -->
+          <div class="gallery-item">
+            <div class="gallery-item-inner">
+              <img
+                src="https://via.placeholder.com/800x600"
+                alt="Plataforma Web"
+                class="gallery-image"
+              />
+              <div class="gallery-overlay">
+                <h3 class="gallery-title">Plataforma de Aprendizado</h3>
+                <span class="gallery-category">Educação</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projeto 5 -->
+          <div class="gallery-item">
+            <div class="gallery-item-inner">
+              <img
+                src="https://via.placeholder.com/800x600"
+                alt="Sistema de Design"
+                class="gallery-image"
+              />
+              <div class="gallery-overlay">
+                <h3 class="gallery-title">Sistema de Design</h3>
+                <span class="gallery-category">UI/UX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+      <div class="stat-item">
+        <div class="stat-number">100+</div>
+        <p style="color: var(--text-gray)">Projetos Concluídos</p>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">50+</div>
+        <p style="color: var(--text-gray)">Clientes Satisfeitos</p>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">5+</div>
+        <p style="color: var(--text-gray)">Anos de Experiência</p>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">24/7</div>
+        <p style="color: var(--text-gray)">Suporte Disponível</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="contact-form">
+        <h2 style="text-align: center; margin-bottom: var(--spacing-lg)">
+          Entre em Contato
+        </h2>
+        <form>
+          <div class="form-group">
+            <input type="text" placeholder="Seu Nome" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Seu Email" required />
+          </div>
+          <div class="form-group">
+            <textarea rows="5" placeholder="Sua Mensagem" required></textarea>
+          </div>
+          <button type="submit" class="btn">
+            <i class="ri-send-plane-line"></i> Enviar Mensagem
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      style="
+        background: var(--bg-darker);
+        padding: var(--spacing-xl);
+        text-align: center;
+      "
+    >
+      <div style="max-width: 1200px; margin: 0 auto">
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+          "
+        >
+          <a href="#" style="color: var(--text-gray); font-size: 1.5rem"
+            ><i class="ri-twitter-line"></i
+          ></a>
+          <a href="#" style="color: var(--text-gray); font-size: 1.5rem"
+            ><i class="ri-linkedin-line"></i
+          ></a>
+          <a href="#" style="color: var(--text-gray); font-size: 1.5rem"
+            ><i class="ri-github-line"></i
+          ></a>
+          <a href="#" style="color: var(--text-gray); font-size: 1.5rem"
+            ><i class="ri-instagram-line"></i
+          ></a>
+        </div>
+        <p style="color: var(--text-gray)">
+          &copy; 2024 Pantheon Labs. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+      const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
+      const navbarLinks = document.querySelector(".navbar-links");
+
+      mobileMenuBtn.addEventListener("click", () => {
+        navbarLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
